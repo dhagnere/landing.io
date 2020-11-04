@@ -1,7 +1,9 @@
 .nav>li>a {
   font-size:2.5rem;
-  color: darkgrey;
-  font-weight: 900;
+  color:rgb(253, 194, 0)!important;
+  text-shadow: 2px 1px 3px #000!important;
+  font-weight: 900!important;
+  text-transform: uppercase;
 }
 
 .text-content{
@@ -9,9 +11,9 @@
 }
 
 #typed {
-  font-size: 5rem;
-  color: rgb(226, 112, 45);
-  
+  font-size: 6rem!important;
+  color:rgb(253, 194, 0)!important;
+  text-shadow:2px 3px 3px #000!important;
 }
 
 .btn-contact{
@@ -23,6 +25,12 @@
 }
 
 .moi{
-  width: 350px;
+  max-width: 90%;
   margin-left: 15px;
+  border:5px solid black;
+
+}
+
+p{
+  font-size: 1.5rem;
 }
